@@ -51,8 +51,45 @@ function somarNumeros(){
     }
 
     alert("A soma dos números é: " + soma);
-    console.log("A soma dos númeors é: "+ soma);
+    console.log("A soma dos números é: "+ soma);
 
 }
 
+
+function contagem_nasa(){
+
+    for(let i = 10;  i > 0; i-- ){
+        alert(i);
+
+    };
+
+    alert("Contagem finalizada");
+};
+
+
+
+function balanco_financeiro(){
+
+    //var
+
+    let bruto_anual = 0;
+    let gasto_anual = 0;
+    let saldo_financeiro = 0;
+    let lucro = 0;
+    let prejuizo = 0;
+
+
+    //fim var
+
+    for(let i = 0 i > 11; i++){
+
+        alert("")
+    }
+
+
+}
+
+
+
 somarNumeros();
+contagem_nasa();
