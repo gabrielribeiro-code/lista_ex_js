@@ -95,10 +95,41 @@ if( saldo_financeiro_anual > 0){
 }else{
     console.log("A empresa ficou no zero!");
  }
-
 }
+
+
+
+function atividade_4(){
+
+ //var
+    let numero =0;
+//
+    for( i= 0; i < 4; i++){
+  numero =  Number(prompt("Digite o numero " + i ));
+    }
+
+    for(let i =0; i < 4; i++) {
+        for(let j = i + 1; j < 4; j++){
+
+            if(numero[i] < numero[j]){
+
+                let guarda = numero[i];
+                numero[i] = numero[j];
+                numero[j] = guarda;
+            }
+
+        }
+    }
+       
+    }
+alert("Ordem descrecente " + numero);
+
+
+
 somarNumeros();
 contagem_nasa();
 atividade_3();
+atividade_4();
+
 
 
