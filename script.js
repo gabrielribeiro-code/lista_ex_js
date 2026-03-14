@@ -204,6 +204,26 @@ break;
     }
 }
 
+function atividade_8(){
+
+let n = 10;
+let n2 = 20;
+
+let diferenca = n - n2;
+
+console.log("A diferença entre as variaveis é " + diferenca);
+
+let dobro = n * 2;
+let triplo = n2 * 3;
+let operacao_b = dobro + triplo;
+
+console.log("O dobro da primeira variavel mais o triplo da segunda é " + operacao_b);
+
+let multi = n * n2;
+
+console.log ("A multiplicação da primeira varíavel e da segunda é " + multi);
+}
+
 
 
 
@@ -220,6 +240,7 @@ atividade_3();
 atividade_4();
 atividade_5();
 atividade_6();
-
+atividade_7();
+atividade_8();
 
 
