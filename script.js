@@ -102,10 +102,10 @@ if( saldo_financeiro_anual > 0){
 function atividade_4(){
 
  //var
-    let numero =0;
+    let numero = [];
 //
-    for( i= 0; i < 4; i++){
-  numero =  Number(prompt("Digite o numero " + i ));
+    for( let i= 0; i < 4; i++){
+  numero[i] =  Number(prompt("Digite o numero " + i ));
     }
 
     for(let i =0; i < 4; i++) {
@@ -121,8 +121,38 @@ function atividade_4(){
         }
     }
        
-    }
-alert("Ordem descrecente " + numero);
+    alert("Ordem descrecente " + numero);
+}
+
+
+function atividade_5(){
+//
+let transformacao = 0;
+let transformacao_2 =0;
+//
+
+let n =  Number(prompt("Digite um número "));
+ if(n % 2 === 0){
+ 
+    alert("É par mas sera transformado em impar");
+    transformacao = n - 1;
+alert("Agora o número par é um numero impar = " + transformacao);
+
+}else{
+    alert("É impar mas será transformado em par");
+    transformacao_2 = n + 1;
+alert("Agora o número impar é um numero par = " + transformacao_2);
+ }
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -130,6 +160,8 @@ somarNumeros();
 contagem_nasa();
 atividade_3();
 atividade_4();
+atividade_5();
+
 
 
 
