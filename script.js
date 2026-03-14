@@ -32,11 +32,11 @@ function somarNumeros(){
     let continuar = true;
 
     while(continuar){
-
+    
         let numero = parseFloat(prompt("Digite um número (ou digite '0 para encerrar): "));
 
         // soma = soma + numero;
-        soma += numero
+      
 
 
         if (isNaN(numero)){
@@ -51,7 +51,7 @@ function somarNumeros(){
     }
 
     alert("A soma dos números é: " + soma);
-    console.log("A soma dos númeors é: "+ soma);
+    console.log("A soma dos números é: "+ soma);
 
 }
 
@@ -235,18 +235,18 @@ let numero2 = 10;
 alert("Valores antes da ordenação" + numero1 + "e" + numero2);
 
 if( numero1 > numero2){
-alert("Ordenado " + numero1 + numero2);
+alert("Ordenado " + numero1  + "," + numero2);
 
 }else{
- alert("Ordenado " + numero2 + numero1)
+ alert("Ordenado " + numero2  + "," + numero1)
 }
 }
 
 function atividade_10(){
 
 
-    let nome_funcionario = (prompt)("Digite o nome do funcionário ");
-    let salario_bruto = parseFloat(prompt)("Digite o salário bruto ");
+    let nome_funcionario = prompt("Digite o nome do funcionário ");
+    let salario_bruto = parseFloat(prompt("Digite o salário bruto "));
     let taxa_desconto = 0.08;
     let desconto = salario_bruto * taxa_desconto;
     let salario_liquido = salario_bruto - desconto;
@@ -262,12 +262,12 @@ alert("O salario liquido é: " + salario_liquido);
 
 function atividade_11(){
  
-    let salario_bruto = parseFloat(prompt)("Digite o salário bruto ");
+    let salario_bruto = parseFloat(prompt("Digite o salário bruto "));
     let taxa_desconto = 0.08;
     let taxa_desconto2 = 0.085;
     let taxa_desconto3 = 0.09;
 
-   if( salario_bruto = 1000){
+   if( salario_bruto <= 1000){
     let desconto = salario_bruto * taxa_desconto;
         let salario_liquido = salario_bruto - desconto;
             alert("Valor do desconto: " + desconto);
